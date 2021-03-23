@@ -1,7 +1,8 @@
 # Codeial-A Social media website
 
 ## Description
-It is a social media website which offers many cool features like a chat engine,a wall to share your posts and comments and a mailing service too.
+This website gives users the opportunity to connect their thoughts on the projects they are working on. This website includes features such as creating and updating profile, posting text ,liking and commenting on posts, viewing colleagues profiles and texting colleagues. The user can post their insights about the update .On successfully posting,
+the website sends a mail to the user's email and a notification pops up to notify him.
 
 ## Screenshots
 
