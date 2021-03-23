@@ -22,6 +22,16 @@ It is a social media website which offers many cool features like a chat engine,
 * used Nodemailer to send out emails.
 * used socket.io for implementing chat engine.
 
+
+## For Security purpose
+* for security issues , the verification through the googleOauth config file have been intentionally encrypted and file have been ignored while uploading
+google_client_id: env_dev.google_client_id || process.env.CODEIAL_GOOGLE_CLIENT_ID,
+    google_client_secret: env_dev.google_client_secret || process.env.CODEIAL_GOOGLE_CLIENT_SECRET,
+    google_call_back_url: env_dev.google_call_back_url || process.env.CODEIAL_GOOGLE_CALLBACK_URL,
+    
+ * just replace this variables by creating the google oauth2 links and the project is good to go.
+
+
 ## How to Install
 
 * Clone the project onto your local machine.
